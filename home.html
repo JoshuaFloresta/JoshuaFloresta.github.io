@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!---------Bootstrap css------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!----------------Font Awesome Icons---------->
+    <title>Document</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #E40707;">
+    <div class="container-fluid">
+      <img src="images/logo.png" alt="" class = "navbar-brand ms-2" style="width: 25vh;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto mb-lg-0 fw-medium me-5 ">
+          <li class="nav-item ">
+            <a class="nav-link active text-white fw-bold" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CURRICULUM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ABOUT</a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             MORE
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ALL CLASSES</a></li>
+              <li><a class="dropdown-item" href="#">INSTRUCTORS</a></li>
+              <li><a class="dropdown-item disabled" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <button class="btn text-light fw-medium rounded-5" id="log" type="button">SIGN UP</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div id ="banner" class = "position-relative">
+      <img src="images/banner.png" alt="">
+        <div class = "position-absolute top-50 start-50 translate-middle w-75" id="banner-text">
+          <h1 class = "text-center fw-bold" id="banner-h1">Become A Working Illustrator</h1>
+          <h3  class = "text-center " id ="banner-h3">Develop the skills you need to create professional work using our guided curriculum of online courses.</h3>
+          <h6 class="text-center text-light mt-5">"Unlock Your Creative Potential as an Illustrator - Enroll in Our Guided Online Courses Today!"</h6>
+          
+          <div class="d-flex justify-content-center">
+            <button class="btn text-light fw-medium rounded-5 mx-auto m-4" id="trial-btn" type="button">TRY OUR 14-DAYS TRIAL</button>
+          </div>
+          </div>
+      </div>
+  </section>
+ 
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="anchor-block text-light text-center" id = "curriculum">
+            <div class="anchor-content">
+              <h4>A GUIDED <span class = "d-block">CURRICULUM</span></h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="anchor-block text-light text-center" id = "portfolio" >
+            <div class="anchor-content">
+              <h4>BUILD YOUR <span class ="d-block">PORTFOLIO</span></h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="anchor-block text-light text-center" id ="instructor">
+            <div class="anchor-content">
+              <h4>PROFESSIONAL <span class ="d-block">INSTRUCTORS</span></h4>
+            </div>
+          </a>
+        </div>  
+  </section>
+
+    <section class = "container-fluid">
+      <div class="row justify-content-center align-content-end">
+        <div class="col-md-7 text-center">
+          <img src="images/intro.jpg" alt="your-image-alt" class="img-fluid ps-5">
+        </div>
+        <div class="col-md-4">
+          <div class="text-container text-start mt-5">
+            <h2 style ="color: #F70202;">Your path starts here!</h2>
+            <p style = "color: #555;">We know it’s not easy to break into illustration, and that's why we created an illustration foundations curriculum to help you master the skills you need to succeed!</p>
+            <button class="btn fw-bold rounded-5 mx-auto m-4" id="check-btn" type="button">CHECK IT OUT!</button>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <hr style ="color:#555; width: 95%; margin: auto;" class="m-4">
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
