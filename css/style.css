@@ -159,7 +159,7 @@
       form{
         align-items: center;
         margin:auto;
-        width: 35%;
+        width: 100%;
         text-align: center;
       }
 
@@ -168,11 +168,12 @@
         color: #f6f6f6;
        margin-top: 20px;
         width: auto;
-      
+        display: block; 
       }
 
       input[type="email"] {
         height: 42px; /* set the height to 40 pixels */
+    
       }
 
       input[type="email"]::placeholder {
@@ -403,7 +404,8 @@
         background-color: #F70202;
         color: #f6f6f6;
        margin-top: 20px;
-        width: auto;
+        width: 15vh;
+        display: block;
       
       }
 
