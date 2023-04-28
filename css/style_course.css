@@ -1,0 +1,530 @@
+ @media screen and (min-width: 769px) {
+   body{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+ nav li{
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#log{
+    border:white 2px solid;
+    padding: 8px;
+    width: 15vh;
+    color: white;
+    font-size: 14px;
+}
+
+
+#log:hover{
+  color: black;
+  background-color: #f6f6f6;
+}
+
+#banner-text{
+  width: 100%;
+} 
+
+#banner img{
+    width: 100%;
+    height: 75vh;
+}
+
+#banner-h1{
+    letter-spacing: 2px;
+    color: #F7F7F7;
+    font-size: 50px;
+    width: 50%;
+    padding-left: 80px;
+    
+}
+
+#banner-h2{
+    color: #F7F7F7;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 24px;
+    padding-left: 80px;
+    font-weight: 500;
+}
+
+#banner-h6{
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#trial-btn {
+    background: #CC0909;
+    padding: 18px;
+    width: auto;
+    transition: background-color 0.3s ease;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  
+  #trial-btn:hover {
+   background-color:#a30303 ;
+  }
+
+
+  #text-intro p{
+    font-family: 'Montserrat', sans-serif;
+    color: #5E5E5E;
+    font-size: 18px;
+}
+
+#text-intro h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#text-intro h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#learn p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+    #check-btn {
+        background: #F7F7F7;
+        padding: 12px;
+        width: 30vh;
+        transition: background-color 0.3s ease;
+        color: #F70202;
+        border: #F70202 2px solid;
+      }
+  
+      #check-btn:hover {
+        background: #F70202;
+        padding: 12px;
+        transition: background-color 0.3s ease;
+        color: #f6f6f6;
+        border: #F70202 2px solid;
+      }
+
+      #trial-btn-1 {
+        background: #CC0909;
+        padding: 18px;
+        width: 25vh;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        font-weight: 400;
+      }
+
+      #trial-btn-1:hover {
+        background-color:#a30303 ;
+       }
+     
+
+      #signupbtn{
+        background-color: #F70202;
+        color: #f6f6f6;
+       margin-top: 20px;
+        width: 15vh;
+        display: block;
+      
+      }
+
+      .carousel-control-prev,
+.carousel-control-next {
+  background-color: red;
+  opacity: 0.8;
+  font-size: 0.8rem;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+#testimonial-carousel{
+  width: 50%;
+  margin: auto;
+}
+
+#testimonials h6{
+  font-size: 24px;
+  color: #E50A0A;
+  font-family: 'Playfair Display', serif;
+}
+
+#testimonials small{
+  font-size: 14px;
+  color: black;
+  font-weight: medium;
+  font-family: 'Playfair Display', serif;
+}
+
+#testimonials p{
+  font-size: 15px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+}
+      
+      #subfooter {
+        background-color: rgb(51,51,51);
+        margin-top: 150px;
+      }
+      #subfooter h4{
+        color: #BFBFBF;
+        font-weight: bold;
+      }
+      
+      #subfooter p{
+        color: #BFBFBF;
+        font-weight: 500;
+        margin-top: 2S0px;
+      }
+      
+      #trial-btn-1{
+        background: #C60A08;
+        width: auto;
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+      }
+
+      #trial-btn-1:hover {
+        background-color: #a30303;
+      }
+
+      .subscription-card {
+        background-color: #F2F2F2;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px;
+        margin: auto;
+      }
+      
+      .subscription-text {
+        width: 55%;
+
+      }
+
+      .subscription-text p{
+        font-family: 'Raleway', sans-serif;
+
+      }
+      
+      .subscription-text h5 {
+        margin-top: 0;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+      }
+    
+      #trial-btn-2{
+        background: #E50A0A;
+        width: auto;
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+        padding: 15px;
+        margin-left: 40px;
+      }
+
+      #trial-btn-2:hover {
+        background-color: #a30303;
+      }
+
+      footer{
+        padding-top: 50px;
+        padding-bottom: 70px;
+
+      }
+     footer h5{
+      color: #797979;
+      margin-bottom: 30px;
+     }
+     
+     footer a{
+      color: #797979;
+      font-weight: 600;
+     }
+
+     footer li{
+      margin-top: 20px;
+     }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      body{
+           font-family: 'Open Sans', sans-serif;
+       }
+   
+    nav li{
+       margin-right: 20px;
+       font-size: 14px;
+       font-family: 'Raleway', sans-serif;
+   }
+   
+   #log{
+       border:white 2px solid;
+       padding: 8px;
+       width: 15vh;
+       color: white;
+       font-size: 14px;
+   }
+   
+   
+   #log:hover{
+     color: black;
+     background-color: #f6f6f6;
+   }
+   
+   #banner-text{
+     width: 100%;
+   } 
+   
+   #banner img{
+       width: 100%;
+       height: 55vh;
+   }
+   
+   #banner-h1{
+       letter-spacing: 2px;
+       color: #F7F7F7;
+       font-size: 40px;
+       width: 50%;
+       padding-left: 80px;
+       
+   }
+   
+   #banner-h2{
+       color: #F7F7F7;
+       margin-top: 20px;
+       width: 50%;
+       font-size: 18px;
+       padding-left: 80px;
+       font-weight: 500;
+   }
+   
+   #banner-h6{
+     margin-top: 10px;
+     font-size: 16px;
+   }
+   
+   #trial-btn {
+       background: #CC0909;
+       padding: 18px;
+       width: auto;
+       transition: background-color 0.3s ease;
+       margin-left: 80px;
+       margin-top: 20px;
+       font-weight: 400;
+     }
+     
+     #trial-btn:hover {
+      background-color:#a30303 ;
+     }
+   
+   
+     #text-intro p{
+       font-family: 'Montserrat', sans-serif;
+       color: #5E5E5E;
+       font-size: 16px;
+   }
+   
+   #text-intro h1{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     font-weight: bolder;
+     margin-top: 50px;
+     margin-bottom: 30px;
+   }
+   
+   #text-intro h2{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     font-weight: bolder;
+     margin-top: 50px;
+     margin-bottom: 30px;
+   }
+   
+   #learn p{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+   }
+   
+       #check-btn {
+           background: #F7F7F7;
+           padding: 12px;
+           width: auto;
+           transition: background-color 0.3s ease;
+           color: #F70202;
+           border: #F70202 2px solid;
+         }
+     
+         #check-btn:hover {
+           background: #F70202;
+           padding: 12px;
+           transition: background-color 0.3s ease;
+           color: #f6f6f6;
+           border: #F70202 2px solid;
+         }
+   
+         #trial-btn-1 {
+           background: #CC0909;
+           padding: 12px;
+           width: auto;
+           transition: background-color 0.3s ease;
+           margin-top: 20px;
+           font-weight: 400;
+         }
+   
+         #trial-btn-1:hover {
+           background-color:#a30303 ;
+          }
+        
+   
+         #signupbtn{
+           background-color: #F70202;
+           color: #f6f6f6;
+          margin-top: 20px;
+           width: 15vh;
+           display: block;
+         
+         }
+   
+         .carousel-control-prev,
+   .carousel-control-next {
+     background-color: red;
+     opacity: 0.8;
+     font-size: 0.8rem;
+     width: 30px;
+     height: 30px;
+     top: 50%;
+   }
+   
+   
+   .carousel-control-prev:hover,
+   .carousel-control-next:hover {
+     opacity: 1;
+   }
+   
+   #testimonial-carousel{
+     width: 50%;
+     margin: auto;
+   }
+   
+   #testimonials h6{
+     font-size: 24px;
+     color: #E50A0A;
+     font-family: 'Playfair Display', serif;
+   }
+   
+   #testimonials small{
+     font-size: 14px;
+     color: black;
+     font-weight: medium;
+     font-family: 'Playfair Display', serif;
+   }
+   
+   #testimonials p{
+     font-size: 15px;
+     color: black;
+     font-family: 'Raleway', sans-serif;
+     margin-top: 20px;
+   }
+         
+         #subfooter {
+           background-color: rgb(51,51,51);
+           margin-top: 150px;
+         }
+         #subfooter h4{
+           color: #BFBFBF;
+           font-weight: bold;
+         }
+         
+         #subfooter p{
+           color: #BFBFBF;
+           font-weight: 500;
+           margin-top: 2S0px;
+         }
+         
+         #trial-btn-1{
+           background: #C60A08;
+           width: auto;
+           transition: background-color 0.3s ease;
+           font-size: 12px;
+         }
+   
+         #trial-btn-1:hover {
+           background-color: #a30303;
+         }
+   
+         .subscription-card {
+           background-color: #F2F2F2;
+           width: 100%;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           padding: 25px;
+           margin: auto;
+         }
+         
+         .subscription-text {
+           width: 70%;
+   
+         }
+   
+         .subscription-text p{
+           font-family: 'Raleway', sans-serif;
+           font-size: 12px;
+   
+         }
+         
+         .subscription-text h5 {
+           margin-top: 0;
+           font-family: 'Playfair Display', serif;
+           font-size: 18px;
+         }
+       
+         #trial-btn-2{
+           background: #E50A0A;
+           width: auto;
+           transition: background-color 0.3s ease;
+           font-size: 14px;
+           padding: 15px;
+           margin-left: 40px;
+         }
+   
+         #trial-btn-2:hover {
+           background-color: #a30303;
+         }
+   
+         footer{
+           padding-top: 50px;
+           padding-bottom: 70px;
+   
+         }
+        footer h5{
+         color: #797979;
+         margin-bottom: 30px;
+        }
+        
+        footer a{
+         color: #797979;
+         font-weight: 600;
+        }
+   
+        footer li{
+         margin-top: 20px;
+        }
+       }
