@@ -6,7 +6,7 @@
 }
 
 #log{
-    border:white 2px solid;
+    border:white 3px solid;
     padding: 5px;
     width: 120px;
     color: white;
@@ -90,7 +90,7 @@
    
     #check-btn {
         background: #F7F7F7;
-        padding: 25px;
+        padding: 15px;
         width: auto;
         transition: background-color 0.3s ease;
         color: #F70202;
@@ -99,7 +99,6 @@
   
       #check-btn:hover {
         background: #F70202;
-        padding: 12px;
         transition: background-color 0.3s ease;
         color: #f6f6f6;
         border: #F70202 2px solid;
@@ -202,10 +201,10 @@
       
       #trial-btn-1{
         background: #C60A08;
-        padding: 20px;
-        width: auto;
+        padding: 15px;
+        width: 45vh;
         transition: background-color 0.3s ease;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       #trial-btn-1:hover {
@@ -243,7 +242,7 @@
 }
 
 #log{
-    border:white 2px solid;
+    border:white 3px solid;
     padding: 5px;
     width: 120px;
     color: white;
@@ -439,10 +438,10 @@
       
       #trial-btn-1{
         background: #C60A08;
-        padding: 20px;
-        width: auto;
+        padding: 15px;
+        width: 45vh;
         transition: background-color 0.3s ease;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       #trial-btn-1:hover {
