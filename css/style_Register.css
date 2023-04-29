@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 769px) {
 nav li{
     margin-right: 20px;
     font-size: 14px;
@@ -223,3 +223,236 @@ select{
    margin-right:31px;
    justify-content: space-around;
   }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  nav li{
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#log{
+    border:white 3px solid;
+    padding: 5px;
+    width: 120px;
+    color: white;
+}
+
+
+#log:hover{
+  color: black;
+  background-color: #f6f6f6;
+}
+
+#Login-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+input[type="email"], input[type="password"]{
+    width: 49vh;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 8vh;
+}
+
+input[type="name"]{
+    width: 24vh;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid red;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    display:inline-block;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+
+input[type="email"], input[type="password"], input[type="name"]:focus{
+    box-sizing: border-box;
+    outline: none;
+}
+
+    form h6{
+        font-size: 17px;
+    }
+
+    #trial-btn-2{
+        background: #E50A0A;
+        width: 60vh;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+        padding: 10px;
+        font-weight: medium;
+        margin-top: 20px;
+      }
+
+      #trial-btn-2:hover {
+        background-color: #a30303;
+      }
+
+      .google-btn{
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        width: 100%;
+        margin-top: 4px;
+        background-color: white;
+        border: #c2c2c2 1px solid;
+        padding: 6px 6px;
+        display: flex;
+        flex-direction: row;
+    }
+    .google-btn img {
+        margin-left: 80px;
+        margin-top:4px;
+    }
+    .google-btn h6 {
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 3px;
+        font-size: 16px;
+    }
+    
+    .google-btn:hover{
+        border: solid 1px #555;
+    }
+
+    #sign-up{
+
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #sign-up a{
+        font-weight: bold;
+        text-decoration: none;
+        color: #a30303;
+    }
+    
+
+    /*---------button for prev and next---------*/
+.next-page,.prev-page{
+    padding: 5px 8px;
+    background-color: white;
+    color:#555;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    width: auto;
+    border: #c2c2c2 1px solid;
+  }
+
+ .prev-page:hover {
+    border: solid 1px #555;
+  }
+
+  .next-page:hover {
+    border: solid 1px #555;
+  }
+  .prev-page {
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 5px;
+  }
+  .next-page {
+    float: right;
+    margin-top: 12px;
+    margin-bottom: 5px;
+  }
+
+  .form-page {
+    display: none;
+  }
+  .form-page.active {
+    display: block;
+  }
+
+  .date-input {
+    display: flex;
+    align-items: center;
+
+  }
+  .date-input input[type="text"] {
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .date-input input[type="text"]:focus {
+    outline: none;
+    border-color: #2a2a2a;
+  }
+  .date-input span {
+    font-size: 14px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"]{
+    width: 80%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*radio button*/
+input[type="radio"]{
+    width: 15%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    display:inline-block;
+    justify-content: space-between;
+}
+
+
+#country   {
+    overflow: hidden;
+    width: 70%;
+}
+#city_region{
+  width: 93%;
+}
+
+select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
+  .time label{
+   margin-right:31px;
+   justify-content: space-around;
+  }
+}
