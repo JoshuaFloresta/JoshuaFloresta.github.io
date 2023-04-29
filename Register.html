@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style_Register.css">
+    <!---------Bootstrap css------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!----------------Font Awesome Icons---------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-----------GOOGLE FONTS---------->
+    <title>Visionary School of Art</title>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #E40707;">
+    <div class="container-fluid">
+      <img src="images/logo.png" alt="" class = "navbar-brand ms-2" style="width: 25vh;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto mb-lg-0 me-5 ">
+          <li class="nav-item ">
+            <a class="nav-link active text-white " aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Curriculumn.html">CURRICULUM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ABOUT</a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             MORE
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ALL CLASSES</a></li>
+              <li><a class="dropdown-item" href="#">INSTRUCTORS</a></li>
+              <li><a class="dropdown-item disabled" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row justify-content-center mt-5">
+    <h3 class ="text-center" id ="Login-text">Create Account</h3>
+    <div id="sign-up">
+        <p style = "font-size: 14px;">Don't have account? <a href = "Register.html">Sign up here</a></p>
+    </div>
+      <div class="w-75 justify-content-center d-flex" >
+        <form>
+            <div class = "form-page">
+            <input type="name" id="first-name" name="first-name" placeholder="First Name" required>
+            <input type="name" id="last-name" name="last-name" placeholder="Last Name" required>
+            <input type="email" placeholder="name@company.com" required class="d-block">
+            <input type="password" placeholder="Enter your password"required class="d-block">
+            <button type="button" class="next-page ">Next</button>
+            
+            </div>
+            
+
+        <div class = "form-page">
+            <label for="birthday"><h6>Birthdate:</h6></label>
+            <div class="date-input">
+                <input type="text" name="day" maxlength="2" placeholder="DD" required>
+                <span>/</span>
+                <input type="text" name="month" maxlength="2" placeholder="MM" required>
+                <span>/</span>
+                <input type="text" name="year" maxlength="4" placeholder="YYYY" required>
+              </div>
+              <label for="number"><h6>Mobile Number:</h6></label>
+              <input type="text" placeholder="+63********" required>
+             <div class="gender">
+                <label><h6>Gender:</h6></label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                
+                <input type="radio" id="other" name="gender" value="other" class="">
+                <label for="other">Other</label>
+             </div>
+            
+              <button type="button" class="prev-page">Previous</button>
+              <button type="button" class="next-page">Next</button>
+        </div>
+
+
+        <div class = "form-page">
+            <label for="country"><h6>Country:</h6></label>
+            <select id="country" name="country" required>
+              <option value="">Select a country</option>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AS">American Samoa</option>
+              <option value="AD">Andorra</option>
+              <option value="AO">Angola</option>
+              <option value="AI">Anguilla</option>
+              <option value="AQ">Antarctica</option>
+              <option value="AG">Antigua and Barbuda</option>
+              <option value="AR">Argentina</option>
+              <option value="AM">Armenia</option>
+              <option value="AW">Aruba</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="AZ">Azerbaijan</option>
+              <option value="BS">Bahamas</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BB">Barbados</option>
+              <option value="BY">Belarus</option>
+              <option value="BE">Belgium</option>
+              <option value="BZ">Belize</option>
+              <option value="BJ">Benin</option>
+              <option value="BM">Bermuda</option>
+              <option value="BT">Bhutan</option>
+              <option value="BO">Bolivia</option>
+              <option value="BA">Bosnia and Herzegovina</option>
+              <option value="BW">Botswana</option>
+              <option value="BV">Bouvet Island</option>
+              <option value="BR">Brazil</option>
+              <option value="IO">British Indian Ocean Territory</option>
+              <option value="BN">Brunei Darussalam</option>
+              <option value="BG">Bulgaria</option>
+              <option value="BF">Burkina Faso</option>
+              <option value="BI">Burundi</option>
+              <option value="KH">Cambodia</option>
+              <option value="CM">Cameroon</option>
+              <option value="CA">Canada</option>
+              <option value="CV">Cape Verde</option>
+              <option value="KY">Cayman Islands</option>
+              <option value="CF">Central African Republic</option>
+              <option value="TD">Chad</option>
+              <option value="CL">Chile</option>
+              <option value="CN">China</option>
+              <option value="CX">Christmas Island</option>
+              <option value="CC">Cocos (Keeling) Islands</option>
+              <option value="CO">Colombia</option>
+              <option value="KM">Comoros</option>
+              <option value="CG">Congo</option>
+              <option value="CD">Congo, the Democratic Republic of the</option>
+              <option value="CK">Cook Islands</option>
+              <option value="CR">Costa Rica</option>
+              <option value="CI">Cote d'Ivoire</option>
+              <option value="HR">Croatia (Hrvatska)</option>
+              <option value="CU">Cuba</option>
+              <option value="CY">Cyprus</option>
+              <option value="CZ">Czech Republic</option>
+              <option value="DK">Denmark</option>
+              <option value="DJ">Djibouti</option>
+              <option value="DM">Dominica</option>
+              <option value="DO">Dominican Republic</option>
+              <option value="EC">Ecuador</option>
+              <option value="EG">Egypt</option>
+              <option value="SV">El Salvador</option>
+              <option value="GQ">Equatorial Guinea</option>
+              <option value="ER">Eritrea</option>
+              <option value="EE">Estonia</option>
+              <option value="ET">Ethiopia</option>
+              <option value="FK">Falkland Islands (Malvinas)</option>
+              <option value="FO">Faroe Islands</option>
+              <option value="FJ">Fiji</option>
+              <option value="FI">Finland</option>
+              <option value="FR">France</option>
+              <option value="GF">French Guiana</option>
+              <option value="PF">French Polynesia</option>
+              <option value="TF">French Southern Territories</option>
+              <option value="GA">Gabon</option>
+              <option value="GM">Gambia</option>
+              <option value="GE">Georgia</option>
+              <option value="DE">Germany</option>
+              <option value="GH">Ghana</option>
+              <option value="GI">Gibraltar</option>
+              <option value="GR">Greece</option>
+              <option value="GL">Greenland</option>
+              <option value="GD">Grenada</option>
+              <option value="GP">Guadeloupe</option>
+              <option value="GU">Guam</option>
+              <option value="GT">Guatemala</option>
+              <option value="GN">Guinea</option>
+              <option value="GW">Guinea-Bissau</option>
+              <option value="GY">Guyana</option>
+              <option value="HT">Haiti</option>
+              <option value="HM">Heard and Mc Donald Islands</option>
+              <option value="VA">Holy See (Vatican City State)</option>
+              <option value="HN">Honduras</option>
+              <option value="HK">Hong Kong</option>
+              <option value="HU">Hungary</option>
+              <option value="IS">Iceland</option>
+              <option value="IN">India</option>
+              <option value="ID">Indonesia</option>
+              <option value="IR">Iran (Islamic Republic of)</option>
+              <option value="IQ">Iraq</option>
+              <option value="IE">Ireland</option>
+              <option value="IL">Israel</option>
+              <option value="IT">Italy</option>
+              <option value="JM">Jamaica</option>
+              <option value="JP">Japan</option>
+              <option value="JO">Jordan</option>
+              <option value="KZ">Kazakhstan</option>
+              <option value="KE">Kenya</option>
+              <option value="KI">Kiribati</option>
+              <option value="KP">Korea, Democratic People's Republic of</option>
+              <option value="KR">Korea, Republic of</option>
+              <option value="KW">Kuwait</option>
+              <option value="KG">Kyrgyzstan</option>
+              <option value="LA">Lao People's Democratic Republic</option>
+              <option value="LV">Latvia</option>
+              <option value="LB">Lebanon</option>
+              <option value="LS">Lesotho</option>
+              <option value="LR">Liberia</option>
+              <option value="LY">Libyan Arab Jamahiriya</option>
+              <option value="LI">Liechtenstein</option>
+              <option value="LT">Lithuania</option>
+              <option value="LU">Luxembourg</option>
+              <option value="MO">Macau</option>
+              <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+              <option value="MG">Madagascar</option>
+              <option value="MW">Malawi</option>
+              <option value="MY">Malaysia</option>
+              <option value="MV">Maldives</option>
+              <option value="ML">Mali</option>
+              <option value="MT">Malta</option>
+              <option value="MH">Marshall Islands</option>
+              <option value="MQ">Martinique</option>
+              <option value="MR">Mauritania</option>
+              <option value="MU">Mauritius</option>
+              <option value="YT">Mayotte</option>
+              <option value="MX">Mexico</option>
+              <option value="FM">Micronesia, Federated States of</option>
+              <option value="MD">Moldova, Republic of</option>
+              <option value="MC">Monaco</option>
+              <option value="MN">Mongolia</option>
+              <option value="MS">Montserrat</option>
+              <option value="MA">Morocco</option>
+              <option value="MZ">Mozambique</option>
+              <option value="MM">Myanmar</option>
+              <option value="NA">Namibia</option>
+              <option value="NR">Nauru</option>
+              <option value="NP">Nepal</option>
+              <option value="NL">Netherlands</option>
+              <option value="AN">Netherlands Antilles</option>
+              <option value="NC">New Caledonia</option>
+              <option value="NZ">New Zealand</option>
+              <option value="NI">Nicaragua</option>
+              <option value="NE">Niger</option>
+              <option value="NG">Nigeria</option>
+              <option value="NU">Niue</option>
+              <option value="NF">Norfolk Island</option>
+              <option value="MP">Northern Mariana Islands</option>
+              <option value="NO">Norway</option>
+              <option value="OM">Oman</option>
+              <option value="PK">Pakistan</option>
+              <option value="PW">Palau</option>
+              <option value="PA">Panama</option>
+              <option value="PG">Papua New Guinea</option>
+              <option value="PY">Paraguay</option>
+              <option value="PE">Peru</option>
+              <option value="PH">Philippines</option>
+              <option value="PN">Pitcairn</option>
+              <option value="PL">Poland</option>
+              <option value="PT">Portugal</option>
+              <option value="PR">Puerto Rico</option>
+              <option value="QA">Qatar</option>
+              <option value="RE">Reunion</option>
+              <option value="RO">Romania</option>
+              <option value="RU">Russian Federation</option>
+              <option value="RW">Rwanda</option>
+              <option value="KN">Saint Kitts and Nevis</option>
+              <option value="LC">Saint LUCIA</option>
+              <option value="VC">Saint Vincent and the Grenadines</option>
+              <option value="WS">Samoa</option>
+              <option value="SM">San Marino</option>
+              <option value="ST">Sao Tome and Principe</option>
+              <option value="SA">Saudi Arabia</option>
+              <option value="SN">Senegal</option>
+              <option value="SC">Seychelles</option>
+              <option value="SL">Sierra Leone</option>
+              <option value="SG">Singapore</option>
+              <option value="SK">Slovakia (Slovak Republic)</option>
+              <option value="SI">Slovenia</option>
+              <option value="SB">Solomon Islands</option>
+              <option value="SO">Somalia</option>
+              <option value="ZA">South Africa</option>
+              <option value="GS">South Georgia and the South Sandwich Islands</option>
+              <option value="ES">Spain</option>
+              <option value="LK">Sri Lanka</option>
+              <option value="SH">St. Helena</option>
+              <option value="PM">St. Pierre and Miquelon</option>
+              <option value="SD">Sudan</option>
+              <option value="SR">Suriname</option>
+              <option value="SJ">Svalbard and Jan Mayen Islands</option>
+              <option value="SZ">Swaziland</option>
+              <option value="SE">Sweden</option>
+              <option value="CH">Switzerland</option>
+              <option value="SY">Syrian Arab Republic</option>
+              <option value="TW">Taiwan, Province of China</option>
+              <option value="TJ">Tajikistan</option>
+              <option value="TZ">Tanzania, United Republic of</option>
+              <option value="TH">Thailand</option>
+              <option value="TG">Togo</option>
+              <option value="TK">Tokelau</option>
+              <option value="TO">Tonga</option>
+              <option value="TT">Trinidad and Tobago</option>
+              <option value="TN">Tunisia</option>
+              <option value="TR">Turkey</option>
+              <option value="TM">Turkmenistan</option>
+              <option value="TC">Turks and Caicos Islands</option>
+              <option value="TV">Tuvalu</option>
+              <option value="UG">Uganda</option>
+              <option value="UA">Ukraine</option>
+              <option value="AE">United Arab Emirates</option>
+              <option value="GB">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="UM">United States Minor Outlying Islands</option>
+              <option value="UY">Uruguay</option>
+              <option value="UZ">Uzbekistan</option>
+              <option value="VU">Vanuatu</option>
+              <option value="VE">Venezuela</option>
+              <option value="VN">Viet Nam</option>
+              <option value="VG">Virgin Islands (British)</option>
+              <option value="VI">Virgin Islands (U.S.)</option>
+              <option value="WF">Wallis</option>
+              <option value="EH">Western Sahara</option>
+              <option value="YE">Yemen</option>
+              <option value="YU">Yugoslavia</option>
+              <option value="ZM">Zambia</option>
+              <option value="ZW">Zimbabwe</option>
+            </select>
+
+            <div>
+                <label for="city_region"><h6>City/Region:</h6></label>
+                <select id="city_region" name="city_region" required>
+                  <option value="">Select a city/region</option>
+                  <optgroup label="National Capital Region">
+                    <option value="Caloocan">Caloocan</option>
+                    <option value="Las Piñas">Las Piñas</option>
+                    <option value="Makati">Makati</option>
+                    <option value="Malabon">Malabon</option>
+                    <option value="Mandaluyong">Mandaluyong</option>
+                    <option value="Manila">Manila</option>
+                    <option value="Marikina">Marikina</option>
+                    <option value="Muntinlupa">Muntinlupa</option>
+                    <option value="Navotas">Navotas</option>
+                    <option value="Parañaque">Parañaque</option>
+                    <option value="Pasay">Pasay</option>
+                    <option value="Pasig">Pasig</option>
+                    <option value="Pateros">Pateros</option>
+                    <option value="Quezon City">Quezon City</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="Taguig">Taguig</option>
+                    <option value="Valenzuela">Valenzuela</option>
+                  </optgroup>
+                  <optgroup label="Ilocos Region">
+                    <option value="Ilocos Norte">Ilocos Norte</option>
+                    <option value="Ilocos Sur">Ilocos Sur</option>
+                    <option value="La Union">La Union</option>
+                    <option value="Pangasinan">Pangasinan</option>
+                  </optgroup>
+                  <optgroup label="Cagayan Valley">
+                    <option value="Batanes">Batanes</option>
+                    <option value="Cagayan">Cagayan</option>
+                    <option value="Isabela">Isabela</option>
+                    <option value="Nueva Vizcaya">Nueva Vizcaya</option>
+                    <option value="Quirino">Quirino</option>
+                  </optgroup>
+                  <optgroup label="Central Luzon">
+                    <option value="Aurora">Aurora</option>
+                    <option value="Bataan">Bataan</option>
+                    <option value="Bulacan">Bulacan</option>
+                    <option value="Nueva Ecija">Nueva Ecija</option>
+                    <option value="Pampanga">Pampanga</option>
+                    <option value="Tarlac">Tarlac</option>
+                    <option value="Zambales">Zambales</option>
+                  </optgroup>
+                  <optgroup label="Calabarzon">
+                    <option value="Batangas">Batangas</option>
+                    <option value="Cavite">Cavite</option>
+                    <option value="Laguna">Laguna</option>
+                    <option value="Quezon">Quezon</option>
+                    <option value="Rizal">Rizal</option>
+                  </optgroup>
+                  <optgroup label="Mimaropa">
+                    <option value="Marinduque">Marinduque</option>
+                    <option value="Occidental Mindoro">Occidental Mindoro</option>
+                    <option value="Oriental Mindoro">Oriental Mindoro</option>
+                    <option value="Palawan">Palawan</option>
+                    <option value="Romblon">Romblon</option>
+                  </optgroup>
+                  <optgroup label="Bicol Region">
+                    <option value="Albay">Albay</option>
+                    <option value="Camarines Norte">Camarines Norte</option>
+                    <option value="Camarines Sur">Camarines Sur</option>
+                    <option value="Catanduanes">Catanduanes</option>
+                    <option value="Masbate">Masbate</option>
+                    <option value="Sorsogon">Sorsogon</option>
+                  </optgroup>
+                  <optgroup label="Western Visayas">
+                    <option value="Aklan">Aklan</option>
+                    <option value="Antique">Antique</option>
+                    <option value="Capiz">Capiz</option>
+                    <option value="Guimaras">Guimaras</option>
+                    <option value="Iloilo">Iloilo</option>
+                    <option value="Negros Occidental">Negros Occidental</option>
+                  </optgroup>
+                  <optgroup label="Central Visayas">
+                    <option value="Bohol">Bohol</option>
+                    <option value="Cebu">Cebu</option>
+                    <option value="Negros Oriental">Negros Oriental</option>
+                    <option value="Siquijor">Siquijor</option>
+                  </optgroup>
+                  <optgroup label="Eastern Visayas">
+                    <option value="Biliran">Biliran</option>
+                    <option value="Eastern Samar">Eastern Samar</option>
+                    <option value="Leyte">Leyte</option>
+                    <option value="Northern Samar">Northern Samar</option>
+                    <option value="Samar">Samar</option>
+                    <option value="Southern Leyte">Southern Leyte</option>
+                  </optgroup>
+                  <optgroup label="Zamboanga Peninsula">
+                    <option value="Zamboanga del Norte">Zamboanga del Norte</option>
+                    <option value="Zamboanga del Sur">Zamboanga del Sur</option>
+                    <option value="Zamboanga Sibugay">Zamboanga Sibugay</option>
+                  </optgroup>
+                  <optgroup label="Northern Mindanao">
+                    <option value="Bukidnon">Bukidnon</option>
+                    <option value="Camiguin">Camiguin</option>
+                    <option value="Lanao del Norte">Lanao del Norte</option>
+                    <option value="Misamis Occidental">Misamis Occidental</option>
+                    <option value="Misamis Oriental">Misamis Oriental</option>
+                  </optgroup>
+                  <optgroup label="Davao Region">
+                    <option value="Compostela Valley">Compostela Valley</option>
+                    <option value="Davao del Norte">Davao del Norte</option>
+                    <option value="Davao del Sur">Davao del Sur</option>
+                    <option value="Davao Occidental">Davao Occidental</option>
+                    <option value="Davao Oriental">Davao Oriental</option>
+                  </optgroup>
+                  <optgroup label="Soccsksargen">
+                    <option value="Cotabato">Cotabato</option>
+                    <option value="South Cotabato">South Cotabato</option>
+                    <option value="Sultan Kudarat">Sultan Kudarat</option>
+                    </optgroup>
+                    </select>
+                
+                    <label><h6>Preferred Contact Time:</h6></label>
+                    <div class = "time">
+                        <div>
+                          <input type="checkbox" id="morning" name="contact_time[]" value="morning">
+                          <label for="morning">Morning</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="afternoon" name="contact_time[]" value="afternoon">
+                          <label for="afternoon">Afternoon</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="evening" name="contact_time[]" value="evening">
+                          <label for="evening">Evening</label>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="prev-page">Previous</button>
+                    </div>
+                    <div class="mt-5">
+                    <button id ="trial-btn-2" class ="btn text-light d-block" type="button" onclick="showAlert2()" class ="d-block">Sign up</button>
+                    <button class="google-btn">
+                        <img src="https://static.vecteezy.com/system/resources/previews/009/469/630/original/google-logo-isolated-editorial-icon-free-vector.jpg" style = "width: 30px; height: 20px;">
+                      <h6 class="text-center">Sign up with Google</h6>
+                     </button> 
+                    </div>
+            </div>
+        </div>
+
+        </form> 
+        
+       
+        </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+    
+
+
+
+
+
+    </section>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="//code.tidio.co/jj81ffdwbn5hn5dysaxjbytaeqnwoltp.js" async></script>
+
+    <script>
+        const formPages = document.querySelectorAll(".form-page");
+        const prevButtons = document.querySelectorAll(".prev-page");
+        const nextButtons = document.querySelectorAll(".next-page");
+        let currentPage = 0;
+      
+        function showPage(page) {
+          formPages[currentPage].classList.remove("active");
+          formPages[page].classList.add("active");
+          currentPage = page;
+        }
+      
+        prevButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            showPage(currentPage - 1);
+          });
+        });
+      
+        nextButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            showPage(currentPage + 1);
+          });
+        });
+      
+        showPage(currentPage);
+    
+    function validateForm() {
+      var nameInput = document.getElementById("name");
+      if (!nameInput.checkValidity()) {
+        alert("Please enter a valid name.");
+        return false;
+      }
+    }
+    
+    
+      function showAlert2() {
+        alert("Registration successful! Please check your email to verify your account and complete the registration process.");
+      }
+      </script>
+</body>
+</html>
