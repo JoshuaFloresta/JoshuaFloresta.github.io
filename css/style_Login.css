@@ -6,7 +6,7 @@ nav li{
 }
 
 #log{
-    border:white 3px solid;
+    border:white 2px solid;
     padding: 5px;
     width: 120px;
     color: white;
@@ -72,7 +72,6 @@ input[type="email"], input[type="password"], input[type="name"]:focus{
         cursor: pointer;
         font-size: 12px;
         width: 100%;
-        margin-top: ;
         background-color: white;
         border: #c2c2c2 1px solid;
         padding: 6px 6px;

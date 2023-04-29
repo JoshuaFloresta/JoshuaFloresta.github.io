@@ -256,6 +256,7 @@
      footer a{
       color: #797979;
       font-weight: 600;
+      text-decoration: none;
      }
 
      footer li{
@@ -522,6 +523,7 @@
         footer a{
          color: #797979;
          font-weight: 600;
+         text-decoration: none;
         }
    
         footer li{

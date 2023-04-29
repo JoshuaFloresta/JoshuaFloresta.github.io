@@ -7,7 +7,7 @@
 }
 
 #log{
-    border:white 3px solid;
+    border:solid 2px #f6f6f6;
     padding: 5px;
     width: 120px;
     color: white;
@@ -243,7 +243,7 @@
 }
 
 #log{
-    border:white 3px solid;
+    border:white 2px solid;
     padding: 5px;
     width: 120px;
     color: white;
@@ -462,6 +462,7 @@
      footer a{
       color: #797979;
       font-weight: 600;
+      text-decoration: none;
      }
 
      footer li{
