@@ -29,7 +29,7 @@
 
 #banner img{
     width: 100%;
-    height: 75vh;
+    height: 50vh;
 }
 
 #banner-h1{
@@ -291,44 +291,44 @@
    
    #banner-text{
      width: 100%;
+     text-align: center;
    } 
    
    #banner img{
        width: 100%;
-       height: 55vh;
+       height: 40vh;
    }
    
    #banner-h1{
        letter-spacing: 2px;
        color: #F7F7F7;
-       font-size: 40px;
-       width: 50%;
-       padding-left: 80px;
+       font-size: 24px;
+       width: 100%;
+       text-align: center;
        
    }
    
    #banner-h2{
        color: #F7F7F7;
        margin-top: 20px;
-       width: 50%;
-       font-size: 18px;
-       padding-left: 80px;
+       width: 100%;
+       font-size: 15px;
        font-weight: 500;
+       text-align: center;
    }
    
    #banner-h6{
      margin-top: 10px;
-     font-size: 16px;
+     font-size: 12px;
    }
    
    #trial-btn {
        background: #CC0909;
-       padding: 18px;
-       width: auto;
+       padding: 8px;
        transition: background-color 0.3s ease;
-       margin-left: 80px;
-       margin-top: 20px;
        font-weight: 400;
+       font-size: 12px;
+       margin: 5px;
      }
      
      #trial-btn:hover {
@@ -530,3 +530,26 @@
          margin-top: 20px;
         }
        }
+
+       #banner {
+        position: relative;
+      }
+    
+    
+      #banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+      }
+    
+      #banner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; /* Text color for the overlay */
+      }

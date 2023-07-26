@@ -25,24 +25,28 @@
 
 #banner img{
     width: 100%;
-    height: 55vh;
+    height: 80vh;
 }
 
 #banner-h1{
-    letter-spacing: 5px;
+   
     color: #F7F7F7;
-    
+    margin-top: 20px;
+    font-size: 28px;
 }
 
 #banner-h3{
     color: #F7F7F7;
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 35px;
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
 }
 
 #banner-h6{
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 3px;
+  font-size: 8px;
+  margin-top: 20px;
 }
 
 #trial-btn {
@@ -50,12 +54,23 @@
     padding: 15px;
     width: auto;
     transition: background-color 0.3s ease;
+    font-size: 12px;
   }
   
+  
+
   #trial-btn:hover {
    opacity: 0.9;
   }
 
+  #myCarousel > .carousel-inner .carousel-item {
+    height: 300px; 
+  }
+
+  #myCarousel > .carousel-inner .carousel-item img {
+    width: 100%; 
+    height: 300px;
+  }
 
   .anchor-block {
     display: block;
@@ -113,7 +128,6 @@
       }
 
       #myCarousel{
-        margin-bottom: 120px;
         width: 100%;
       }
 
@@ -350,7 +364,7 @@
       }
 
       #myCarousel{
-        margin-bottom: 120px;
+        margin-bottom: 50px;
         width: 100%;
       }
 
@@ -471,3 +485,23 @@
 
 
 }
+
+
+#myCarousel > .carousel-inner .carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+}
+
+/* Style the content on the carousel */
+#banner-text {
+  z-index: 1; /* Ensure the content appears above the overlay */
+  color: #fff; /* Set the text color to white */
+  text-align: center;
+}
+
+
